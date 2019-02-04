@@ -1,0 +1,97 @@
+h2{
+	margin: 0;
+	padding:0;
+}
+.bigWrap{
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+}
+.wrap{
+	width: 1200px;
+	height: 1312px;
+	background:url(../img/login-bigbg.png) no-repeat;
+	background-size: 1200px;
+	height: 1312px;
+}
+.content{
+	overflow: hidden;
+	width: 877px;
+	height: 516px;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	left: 161px;
+	top: 318px;
+}
+.content h2{
+	padding-top: 54px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size:53px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(253,253,253,1);
+	line-height:44px;
+}
+
+
+.content div{
+	width: 528px;
+	height:49px;
+	margin-top: 15px;
+	background: #fff;
+	margin-left: 176px;
+	width: 529px;
+	height: 40px;
+}
+.content .div1 input{
+	padding-left: 60px;
+	width: 469px;
+	height: 39px;
+	background: url(../img/phone-bg.png) no-repeat 7px 5px;
+	
+	background-size: 30px 30px;
+	
+	border: 0;
+}
+.content .div2 input,.content .div3 input{
+	padding-left: 60px;
+	width: 469px;
+	height: 39px;
+	background: url(../img/psd.png) no-repeat 7px 5px;
+	
+	background-size: 30px 30px;
+	
+	border: 0;
+}
+.content .div3{
+	width: 422px;
+	overflow: hidden;
+}
+.content .div1{
+	margin-top: 66px;
+}
+.content .btn{
+	cursor: pointer;
+	width: 366px;
+	height: 49px;
+	background: #FC0404;
+	text-align: center;
+	line-height: 49px;
+	color: #fff;
+	margin-left: 253px;
+	font-size: 26px;
+}
+.content .div4{
+	
+	line-height:40px;
+	background: 0;
+}
+.content .div4 a{
+	color: #FFFFFF;
+}
+.content .div4 .a2{
+	margin-left: 30px;
+}

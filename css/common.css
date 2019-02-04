@@ -1,0 +1,282 @@
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,ul,li,span{
+	margin:0;
+	padding:0;
+}
+
+
+/*--------以下是头部---------*/
+.nav{
+	position: relative;
+	width: 1200px;
+	height: 77px;
+	background: url(../img/nav-bg1.png) no-repeat;
+	background-size: 1200px 77px;
+}
+
+
+.nav ul li a span{
+	display: block;
+	float: left;
+}
+.nav ul li a:hover{
+	color: #FB0A05;
+}
+.nav ul li a .span1:hover{
+	color: #FB0A05;
+}
+.nav ul li a .span2:hover{
+	color: #FB0A05;
+}
+.nav ul li .a7:hover{
+	color:rgba(0,0,0,1);
+}
+.nav ul li a {
+	width:50px;
+	display: block;
+	float: left;
+	position: absolute;
+	height:12px;
+	font-size:12px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(0,0,0,1);
+}
+.nav .nav-1 .ul4 a{
+	text-align: left;
+	width: 100%;
+}
+.nav ul li .a1{
+	left: 271px;
+	top: 26px;
+	width:25px;
+	
+}
+.nav ul li .a2{
+	left: 332px;
+	top: 26px;
+	width:50px;
+	
+}
+.nav ul li .a3{
+	left: 406px;
+	top: 26px;
+	width:49px;
+	height:13px;
+}
+.nav ul li .a4{
+	left: 481px;
+	top: 26px;
+	width:49px;
+}
+.nav ul li .a5{
+	left:554px;
+	top: 26px;
+	width:49px;
+}
+.nav ul li .a6{
+	left:629px;
+	top: 26px;
+	width:48px;
+}
+.nav ul li .a7{
+	left:861px;
+	top: 26px;
+	width:54px;
+
+}
+.nav ul li .a8{
+	left:992px;
+	top: 26px;
+	width:25px;
+}
+
+
+
+.nav .nav-1{
+	width: 380px;
+    height: 77px;
+    margin-left: 320px;
+}
+    
+.seclect1{
+	display: none;
+	position: absolute;
+	z-index:5;
+	width: 1200px;
+	height: 250px;
+	left: 0;
+	top: 77px;
+	width:1200px;
+	height:240px;
+	background:rgba(0,0,0,0.62);
+}
+.seclect1 .ul1{
+	font-size: 12px;
+	position: absolute;
+	left:333px;
+	top:0;
+	width: 48px;
+	height: 120px;
+}
+.seclect1 .ul2{
+	font-size: 12px;
+	position: absolute;
+	left:406px;
+	top:0;
+	width: 48px;
+	height: 120px;
+}
+.seclect1 .ul3{
+	font-size: 12px;
+	position: absolute;
+	left:554px;
+	top:0;
+	width: 48px;
+	height: 120px;
+}
+.seclect1 .ul4{
+	font-size: 12px;
+	position: absolute;
+	left:628px;
+	top:0;
+	text-align: left;
+	width: 120px;
+	height: 120px;
+}
+
+.seclect1 ul li a{
+	color:rgba(255,255,255,1);
+}
+
+.nav-1  .seclect1  ul li{
+	line-height: 29px;
+	height: 29px;
+	text-align: center;
+	border-bottom:1px solid rgba(158,157,157,1);
+}
+
+
+/*-------------以上头部----------------*/
+.footer1{
+	position: relative;
+	width: 100%;
+	height: 582px;
+
+}
+.footer1 .lianxi{
+	width: 100%;
+	height: 438px;
+	position: absolute;
+	left: 0px;
+	top:-5px;
+	background: url(../img/ditu.jpg) no-repeat;
+	background-size: 1200px 438px;
+}
+.footer1 .lianxi .div5{
+	width: 969px;
+	height: 18px;
+
+	padding-left: 231px;
+	padding-top: 53px;
+	font-size: 14px;
+	color: #fff;
+}
+.footer1 .lianxi .div6-1{
+	width: 113px;
+	height: 70px;
+
+	margin-top: 117px;
+	margin-left: 230px;
+	float: left;
+	font-size: 12px;
+	color: #fff;
+	line-height: 18px;
+}
+.footer1 .lianxi .div6-1{
+	
+}
+.footer1 .lianxi .div6-2{
+	width: 428px;
+	height: 278px;
+	background: #fff;
+	margin-top: 9px;
+	margin-left: 191px;
+	float: left;
+	font-size: 12px;
+}
+.footer1 .lianxi .div6-2 .p1{
+	margin-top: 33px;
+	margin-left: 44px;
+	color: #000;
+}
+.footer1 .lianxi .div6-2 .txt{
+	margin-top: 25px;
+	margin-left: 99px;
+	width: 240px;
+	height: 144px;
+}
+.footer1 .lianxi .div6-2 span{
+	margin-top: 10px;
+	display: block;
+	float: left;
+}
+.footer1 .lianxi .div6-2 input{
+	margin-top: 3px;
+	height: 23px;
+	margin-left: 5px;
+	display: block;
+	float: left;
+	border: 0;
+	
+    border-bottom: 1px solid #ccc;
+    background: 0;
+}
+ .footer1 .lianxi .div6-2 .btn{
+ 	display: block;
+ 	background: 0;
+ 	border: 0;
+ 	color: #E98900;
+ 	width:86px;
+ 	height:24px;
+ 	font-size: 12px;
+ 	cursor: pointer;
+ 	margin-top: 10px;
+ 	text-align: center;
+ 	line-height: ;
+ 	border: 1px solid #E98900;
+ 	margin-left: 40%;
+ } 
+
+
+.footer1 .dibu{	
+	position: absolute;
+	width: 100%;
+	top: 433px;
+	height: 149px;
+	
+}
+.footer1 .dibu-1{
+	margin:0 auto;
+	margin-top: 40px;
+	
+	width: 898px;
+	height: 76px;
+	
+}
+.footer1 .dibu-1 .p1{
+	
+	margin-top: 3px;
+	font-size: 12px;
+	color: #aaa;
+}
+.footer1 .dibu-1 .p4{
+	background:url(../img/beijing.png) no-repeat 4px;
+	background-size: 20px 20px;
+	padding-left: 28px;
+}

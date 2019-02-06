@@ -19,6 +19,16 @@ $(function(){
 	$(".seclect1 .ul2 .a-2").click(function(){
 		window.location.href = "rushi.html";
 	})
+	$(".seclect1 .ul2 .a-3").click(function(){
+		console.log("Aaa")
+		window.location.href = "wanwu.html";
+	})
+	$(".seclect1 .ul2 .a-4").click(function(){
+		window.location.href = "yishu.html";
+	})
+	$(".seclect1 .ul2 .a-5").click(function(){
+		window.location.href = "shipin.html";
+	})
 	
 	$(".nav ul li a .span1").click(function(){
 		window.location.href = "login.html";

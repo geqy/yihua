@@ -12,15 +12,34 @@ $(function(){
 	})
 	
 	
+	$(".seclect1 .ul1 .a-1").click(function(){
+		
+		window.location.href = "keting.html";
+	})
+	$(".seclect1 .ul1 .a-2").click(function(){
+		
+		window.location.href = "canting.html";
+	})
+	$(".seclect1 .ul1 .a-3").click(function(){
+		
+		window.location.href = "woshi.html";
+	})
+	$(".seclect1 .ul1 .a-4").click(function(){
+		
+		window.location.href = "shufang.html";
+	})
+	
+	
+	
 	$(".seclect1 .ul2 .a-1").click(function(){
-		console.log("Aaa")
+		
 		window.location.href = "zizai.html";
 	})
 	$(".seclect1 .ul2 .a-2").click(function(){
 		window.location.href = "rushi.html";
 	})
 	$(".seclect1 .ul2 .a-3").click(function(){
-		console.log("Aaa")
+		
 		window.location.href = "wanwu.html";
 	})
 	$(".seclect1 .ul2 .a-4").click(function(){
@@ -36,6 +55,21 @@ $(function(){
 	
 	$(".nav ul li a .span2").click(function(){
 		window.location.href = "regist.html";
+	})
+	
+	$(".seclect1 .ul4 .a-2").click(function(){
+		window.location.href = "liangfang.html";
+	})
+	$(".a8").click(function(){
+		window.location.href = "wode.html";
+	})
+	
+	
+	$(".nav ul li .a4").click(function(){
+		window.location.href = "dingzhi.html";
+	})
+	$(".nav ul li .a5").click(function(){
+		window.location.href = "shangcheng.html";
 	})
 })
 
